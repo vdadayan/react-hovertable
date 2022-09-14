@@ -4,24 +4,23 @@ export default {
     padding: '5px'
   },
   table: {
-    borderCollapse: 'separate'
+    borderCollapse: 'collapse'
   },
   cellOuter: {
     cursor: 'pointer',
-    padding: '1px'
   },
   cell: {
     default: {
       border: '1px solid #CCC'
     },
     active: {
-      backgroundColor: '#DEF'
+      backgroundColor: '#E6F2FF'
     },
     mouseOver: {
-      backgroundColor: '#DEF'
+      backgroundColor: '#E6F2FF'
     },
     selected: {
-      border: '2px solid #aaa'
+      border: '1px solid #2F9AFF'
     }
   },
   dimensions: {
